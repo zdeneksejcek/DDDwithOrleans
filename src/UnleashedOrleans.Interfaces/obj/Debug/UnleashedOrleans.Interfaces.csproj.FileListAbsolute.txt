@@ -1,0 +1,14 @@
+C:\src\playground\UnleashedOrleans\UnleashedOrleans.Interfaces\bin\Debug\UnleashedOrleans.Interfaces.dll
+C:\src\playground\UnleashedOrleans\UnleashedOrleans.Interfaces\bin\Debug\UnleashedOrleans.Interfaces.pdb
+C:\src\playground\UnleashedOrleans\UnleashedOrleans.Interfaces\bin\Debug\UnleashedDDD.Contracts.dll
+C:\src\playground\UnleashedOrleans\UnleashedOrleans.Interfaces\bin\Debug\UnleashedDDD.Contracts.pdb
+C:\src\playground\UnleashedOrleans\UnleashedOrleans.Interfaces\obj\Debug\UnleashedOrleans.Interfaces.csprojResolveAssemblyReference.cache
+C:\src\playground\UnleashedOrleans\UnleashedOrleans.Interfaces\obj\Debug\UnleashedOrleans.Interfaces.dll
+C:\src\playground\UnleashedOrleans\UnleashedOrleans.Interfaces\obj\Debug\UnleashedOrleans.Interfaces.pdb
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans.Interfaces\bin\Debug\UnleashedOrleans.Interfaces.dll
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans.Interfaces\bin\Debug\UnleashedOrleans.Interfaces.pdb
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans.Interfaces\bin\Debug\UnleashedDDD.Contracts.dll
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans.Interfaces\bin\Debug\UnleashedDDD.Contracts.pdb
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans.Interfaces\obj\Debug\UnleashedOrleans.Interfaces.csprojResolveAssemblyReference.cache
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans.Interfaces\obj\Debug\UnleashedOrleans.Interfaces.dll
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans.Interfaces\obj\Debug\UnleashedOrleans.Interfaces.pdb

@@ -1,0 +1,11 @@
+C:\Microsoft Codename Orleans SDK v0.9\SDK\LocalSilo\DevTestClientConfiguration.xml
+C:\Microsoft Codename Orleans SDK v0.9\SDK\LocalSilo\DevTestServerConfiguration.xml
+C:\Microsoft Codename Orleans SDK v0.9\SDK\LocalSilo\UnleashedOrleans.exe.config
+C:\Microsoft Codename Orleans SDK v0.9\SDK\LocalSilo\UnleashedOrleans.exe
+C:\Microsoft Codename Orleans SDK v0.9\SDK\LocalSilo\UnleashedOrleans.pdb
+C:\src\playground\UnleashedOrleans\UnleashedOrleans\obj\Debug\UnleashedOrleans.csprojResolveAssemblyReference.cache
+C:\src\playground\UnleashedOrleans\UnleashedOrleans\obj\Debug\UnleashedOrleans.exe
+C:\src\playground\UnleashedOrleans\UnleashedOrleans\obj\Debug\UnleashedOrleans.pdb
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans\obj\Debug\UnleashedOrleans.exe
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans\obj\Debug\UnleashedOrleans.pdb
+C:\src\OpenSource\DDDwithOrleans\src\UnleashedOrleans\obj\Debug\UnleashedOrleans.csprojResolveAssemblyReference.cache

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0444217-DDB0-43B2-85F7-F5106AE59801}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UnleashedDDD</RootNamespace>
+    <AssemblyName>UnleashedDDD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IDomainEventRaiser.cs" />
+    <Compile Include="ObservableAggregateBase.cs" />
+    <Compile Include="Sales\Domain.Model\Currency.cs" />
+    <Compile Include="Sales\Domain.Model\IStatable.cs" />
+    <Compile Include="Sales\Domain.Model\MonetaryValue.cs" />
+    <Compile Include="Sales\Domain.Model\RefWarehouseId.cs" />
+    <Compile Include="Sales\Domain.Model\SalesInvoices\SalesInvoice.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\ModificationOfCompletedOrderIsNoAllowed.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\ModificationOfOrderIsNoAllowedWhileBeingCompleted.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\UnallowedStateChange.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\State\SalesOrderState.cs" />
+    <Compile Include="Sales\Domain.Model\Salespersons\SalespersonId.cs" />
+    <Compile Include="Sales\Domain.Model\SalesTax.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Events\SalesOrderWarehouseChanged.cs" />
+    <Compile Include="Sales\Domain.Model\Customers\Customer.cs" />
+    <Compile Include="Sales\Domain.Model\Customers\CustomerId.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\FinishCompletingIsNotAllowedForCurrentState.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\LineDoesNotExist.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Lines.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\LineStatus.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\NoLine.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\OrderContainsUnallocatedLines.cs" />
+    <Compile Include="Sales\Domain.Model\ProductId.cs" />
+    <Compile Include="Sales\Domain.Model\Quantity.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Comment.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Line.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\LineId.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\SalesOrder.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Events\SalesOrderCompletionStarted.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Events\SalesOrderCreated.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\MultipleCurrenciesNotSupported.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Id.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Status.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\Totals.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\UnitPrice.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UnleashedDDD.Contracts\UnleashedDDD.Contracts.csproj">
+      <Project>{AB1A6300-4E35-4477-9593-DD614FCA6DF3}</Project>
+      <Name>UnleashedDDD.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Inventory\Domain.Model\ProductGroups\" />
+    <Folder Include="Inventory\Domain.Model\Products\" />
+    <Folder Include="Inventory\Domain.Model\StockAdjustments\" />
+    <Folder Include="Inventory\Domain.Model\Stocks\" />
+    <Folder Include="Inventory\Domain.Model\UnitsOfMeasure\" />
+    <Folder Include="Inventory\Domain.Model\Warehouses\" />
+    <Folder Include="Inventory\Domain.Model\WarehouseTransfers\" />
+    <Folder Include="Production\Assemblies\" />
+    <Folder Include="Production\BillsOfMaterials\" />
+    <Folder Include="Purchases\Domain.Model\PurchaseOrders\" />
+    <Folder Include="Purchases\Domain.Model\SupplierReturns\" />
+    <Folder Include="Purchases\Domain.Model\Suppliers\" />
+    <Folder Include="Sales\Domain.Model\CreditReasons\" />
+    <Folder Include="Sales\Domain.Model\Credits\" />
+    <Folder Include="Sales\Domain.Model\CustomerTypes\" />
+    <Folder Include="Sales\Domain.Model\DeliveryMethods\" />
+    <Folder Include="Sales\Domain.Model\PaymentTerms\" />
+    <Folder Include="Sales\Domain.Model\Quotes\" />
+    <Folder Include="Sales\Domain.Model\SalesGroups\" />
+    <Folder Include="Sales\Domain.Model\SellPriceTiers\" />
+    <Folder Include="Sales\Domain.Model\Shipments\" />
+    <Folder Include="Sales\Domain.Model\ShippingCompanies\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
