@@ -1,1 +1,0 @@
-[assembly: Orleans.ActivationIncludedAttribute()]

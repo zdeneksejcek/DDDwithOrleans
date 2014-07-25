@@ -1,4 +1,0 @@
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Commands\bin\Debug\UnleashedDDD.Commands.dll
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Commands\bin\Debug\UnleashedDDD.Commands.pdb
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Commands\obj\Debug\UnleashedDDD.Commands.dll
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Commands\obj\Debug\UnleashedDDD.Commands.pdb

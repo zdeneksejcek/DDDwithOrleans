@@ -1,8 +1,0 @@
-C:\src\playground\UnleashedDDD\UnleashedDDD\bin\Release\UnleashedDDD.dll.config
-C:\src\playground\UnleashedDDD\UnleashedDDD\bin\Release\UnleashedDDD.dll
-C:\src\playground\UnleashedDDD\UnleashedDDD\bin\Release\UnleashedDDD.pdb
-C:\src\playground\UnleashedDDD\UnleashedDDD\bin\Release\OpenDDD.dll
-C:\src\playground\UnleashedDDD\UnleashedDDD\bin\Release\OpenDDD.pdb
-C:\src\playground\UnleashedDDD\UnleashedDDD\obj\Release\UnleashedDDD.dll
-C:\src\playground\UnleashedDDD\UnleashedDDD\obj\Release\UnleashedDDD.pdb
-C:\src\playground\UnleashedDDD\UnleashedDDD\obj\Release\UnleashedDDD.csprojResolveAssemblyReference.cache

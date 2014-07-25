@@ -1,6 +1,0 @@
-/nomerge
-/in:obj\Debug\UnleashedOrleans.Interfaces.dll
-/key:
-/d:DEBUG;TRACE
-/r:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll;C:\Microsoft Codename Orleans SDK v0.9\SDK\.\Binaries\OrleansClient\Orleans.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll;C:\src\OpenSource\DDDwithOrleans\src\UnleashedDDD.Contracts\bin\Debug\UnleashedDDD.Contracts.dll
-/src:Properties\orleans.codegen.cs;Properties\AssemblyInfo.cs;Sales\ISalesInvoiceGrain.cs;Sales\ISalesOrderGrain.cs;C:\Users\sejc\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs

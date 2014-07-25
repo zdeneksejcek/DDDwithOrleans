@@ -1,4 +1,0 @@
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Events\bin\Debug\UnleashedDDD.Events.dll
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Events\bin\Debug\UnleashedDDD.Events.pdb
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Events\obj\Debug\UnleashedDDD.Events.dll
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Events\obj\Debug\UnleashedDDD.Events.pdb

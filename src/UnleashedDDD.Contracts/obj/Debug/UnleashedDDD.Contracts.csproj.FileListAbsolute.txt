@@ -1,9 +1,0 @@
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Contracts\bin\Debug\UnleashedDDD.Contracts.dll
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Contracts\bin\Debug\UnleashedDDD.Contracts.pdb
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Contracts\obj\Debug\UnleashedDDD.Contracts.dll
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Contracts\obj\Debug\UnleashedDDD.Contracts.pdb
-C:\src\playground\UnleashedOrleans\UnleashedDDD.Contracts\obj\Debug\UnleashedDDD.Contracts.csprojResolveAssemblyReference.cache
-C:\src\OpenSource\DDDwithOrleans\src\UnleashedDDD.Contracts\bin\Debug\UnleashedDDD.Contracts.dll
-C:\src\OpenSource\DDDwithOrleans\src\UnleashedDDD.Contracts\bin\Debug\UnleashedDDD.Contracts.pdb
-C:\src\OpenSource\DDDwithOrleans\src\UnleashedDDD.Contracts\obj\Debug\UnleashedDDD.Contracts.dll
-C:\src\OpenSource\DDDwithOrleans\src\UnleashedDDD.Contracts\obj\Debug\UnleashedDDD.Contracts.pdb
