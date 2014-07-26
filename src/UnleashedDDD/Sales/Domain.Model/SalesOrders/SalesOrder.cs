@@ -6,7 +6,7 @@ using UnleashedDDD.Sales.Domain.Model.Salespersons;
 
 namespace UnleashedDDD.Sales.Domain.Model.SalesOrders
 {
-    public class SalesOrder : IStatable
+    public class SalesOrder : IStatable<SalesOrderState>
     {
         private readonly IDomainEventRaiser _observer;
         private SalesOrderState _state = null;
@@ -68,7 +68,7 @@ namespace UnleashedDDD.Sales.Domain.Model.SalesOrders
             return new Totals(Lines);
         }
 
-        public object GetState()
+        public SalesOrderState GetState()
         {
             return new SalesOrderState();
         }

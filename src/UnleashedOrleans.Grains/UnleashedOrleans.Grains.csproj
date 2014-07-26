@@ -54,8 +54,6 @@
     <Compile Include="EventHandlerGrainBase.cs" />
     <Compile Include="IAggregateRootState.cs" />
     <Compile Include="SagaGrainBase.cs" />
-    <Compile Include="Sales\ISalesInvoiceGrainState.cs" />
-    <Compile Include="Sales\ISalesOrderGrainState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sales\SalesInvoiceGrain.cs" />
     <Compile Include="Sales\SalesOrderGrain.cs" />

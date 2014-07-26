@@ -1,7 +1,7 @@
 ﻿namespace UnleashedDDD.Sales.Domain.Model
 {
-    public interface IStatable
+    public interface IStatable<T>
     {
-        object GetState();
+        T GetState();
     }
 }

@@ -42,14 +42,18 @@
     <Compile Include="IDomainEventRaiser.cs" />
     <Compile Include="ObservableAggregateBase.cs" />
     <Compile Include="Sales\Domain.Model\Currency.cs" />
+    <Compile Include="Sales\Domain.Model\Customers\State\CustomerState.cs" />
     <Compile Include="Sales\Domain.Model\IStatable.cs" />
     <Compile Include="Sales\Domain.Model\MonetaryValue.cs" />
     <Compile Include="Sales\Domain.Model\RefWarehouseId.cs" />
     <Compile Include="Sales\Domain.Model\SalesInvoices\SalesInvoice.cs" />
+    <Compile Include="Sales\Domain.Model\SalesInvoices\SalesInvoiceId.cs" />
+    <Compile Include="Sales\Domain.Model\SalesInvoices\State\SalesInvoiceState.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\ModificationOfCompletedOrderIsNoAllowed.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\ModificationOfOrderIsNoAllowedWhileBeingCompleted.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\UnallowedStateChange.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\State\SalesOrderState.cs" />
+    <Compile Include="Sales\Domain.Model\Salespersons\Salesperson.cs" />
     <Compile Include="Sales\Domain.Model\Salespersons\SalespersonId.cs" />
     <Compile Include="Sales\Domain.Model\SalesTax.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\Events\SalesOrderWarehouseChanged.cs" />
@@ -70,7 +74,7 @@
     <Compile Include="Sales\Domain.Model\SalesOrders\Events\SalesOrderCompletionStarted.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\Events\SalesOrderCreated.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\Exceptions\MultipleCurrenciesNotSupported.cs" />
-    <Compile Include="Sales\Domain.Model\SalesOrders\Id.cs" />
+    <Compile Include="Sales\Domain.Model\SalesOrders\SalesOrderId.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\Status.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\Totals.cs" />
     <Compile Include="Sales\Domain.Model\SalesOrders\UnitPrice.cs" />
@@ -105,6 +109,8 @@
     <Folder Include="Sales\Domain.Model\PaymentTerms\" />
     <Folder Include="Sales\Domain.Model\Quotes\" />
     <Folder Include="Sales\Domain.Model\SalesGroups\" />
+    <Folder Include="Sales\Domain.Model\SalesInvoices\Events\" />
+    <Folder Include="Sales\Domain.Model\SalesInvoices\Exceptions\" />
     <Folder Include="Sales\Domain.Model\SellPriceTiers\" />
     <Folder Include="Sales\Domain.Model\Shipments\" />
     <Folder Include="Sales\Domain.Model\ShippingCompanies\" />

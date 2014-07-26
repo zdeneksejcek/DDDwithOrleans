@@ -6,7 +6,7 @@ using UnleashedDDD.Sales.Domain.Model;
 
 namespace UnleashedOrleans.Grains
 {
-    public abstract class AggregateGrainBase<TAggregate,TState> : GrainBase<IAggregateRootState<TState>> where TAggregate : IStatable
+    public abstract class AggregateGrainBase<TAggregate,TState> : GrainBase<IAggregateRootState<TState>> where TAggregate : IStatable<TState>
     {
         private TAggregate Aggregate { get; set; }
 
